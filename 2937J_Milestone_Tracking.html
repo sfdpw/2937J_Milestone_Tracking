@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-iy9g{font-size:20px;color:#000000;border-color:#000000;text-align:center}
+.tg .tg-exo3{font-size:10px;color:#000000;border-color:#ffffff;text-align:center}
+.tg .tg-jjdr{font-weight:bold;font-size:10px;background-color:#000000;color:#ffffff;border-color:#000000;text-align:center}
+.tg .tg-jjdl{font-weight:bold;font-size:10px;background-color:#000000;color:#ffffff;border-color:#000000;text-align:left}
+.tg .tg-jjdrr{font-weight:bold;font-size:10px;background-color:#ffffff;color:#000000;border-color:#ffffff;text-align:right}
+.tg .tg-jjdc{font-weight:bold;font-size:10px;background-color:#ffffff;color:#000000;border-color:#ffffff;text-align:center}
+
+.tg .tg-nfac{font-size:10px;background-color:#a9d08e;color:#000000;border-color:#000000;text-align:center}
+.tg .tg-nfal{font-size:10px;background-color:#a9d08e;color:#000000;border-color:#000000;text-align:left}
+
+.tg .tg-citc{font-size:10px;background-color:#ffee00;color:#000000;border-color:#000000;text-align:center}
+.tg .tg-citl{font-size:10px;background-color:#ffee00;color:#000000;border-color:#000000;text-align:left}
+
+.tg .tg-cntc{font-size:10px;background-color:#ff4000;color:#000000;border-color:#000000;text-align:center}
+.tg .tg-cntl{font-size:10px;background-color:#ff4000;color:#000000;border-color:#000000;text-align:left}
+
+.tg .tg-revc{font-size:10px;background-color:#e3e1df;color:#000000;border-color:#000000;text-align:center}
+.tg .tg-revl{font-size:10px;background-color:#e3e1df;color:#000000;border-color:#000000;text-align:left}
+
+.tg .phase1{font-size:10px;background-color:var(--ph1bgcolor);color:#000000;border-color:#000000;text-align:center}
+.tg .phase2{font-size:10px;background-color:var(--ph2bgcolor);color:#000000;border-color:#000000;text-align:center}
+.tg .phase3{font-size:10px;background-color:var(--ph3bgcolor);color:#000000;border-color:#000000;text-align:center}
+.tg .phase4{font-size:10px;background-color:var(--ph4bgcolor);color:#000000;border-color:#000000;text-align:center}
+.tg .phase5{font-size:10px;background-color:var(--ph5bgcolor);color:#000000;border-color:#000000;text-align:center}
+.tg .phase6{font-size:10px;background-color:var(--ph6bgcolor);color:#000000;border-color:#000000;text-align:center}
+.tg .phase6A{font-size:10px;background-color:var(--ph6Abgcolor);color:#000000;border-color:#000000;text-align:center}
+.tg .phase7{font-size:10px;background-color:var(--ph7bgcolor);color:#000000;border-color:#000000;text-align:center}
+.tg .phase8{font-size:10px;background-color:var(--ph8bgcolor);color:#000000;border-color:#000000;text-align:center}
+
+.tg .phase1L{font-size:10px;background-color:var(--ph1bgcolor);color:#000000;border-color:#000000;text-align:left}
+.tg .phase2L{font-size:10px;background-color:var(--ph2bgcolor);color:#000000;border-color:#000000;text-align:left}
+.tg .phase3L{font-size:10px;background-color:var(--ph3bgcolor);color:#000000;border-color:#000000;text-align:left}
+.tg .phase4L{font-size:10px;background-color:var(--ph4bgcolor);color:#000000;border-color:#000000;text-align:left}
+.tg .phase5L{font-size:10px;background-color:var(--ph5bgcolor);color:#000000;border-color:#000000;text-align:left}
+.tg .phase6L{font-size:10px;background-color:var(--ph6bgcolor);color:#000000;border-color:#000000;text-align:left}
+.tg .phase6AL{font-size:10px;background-color:var(--ph6Abgcolor);color:#000000;border-color:#000000;text-align:left}
+.tg .phase7L{font-size:10px;background-color:var(--ph7bgcolor);color:#000000;border-color:#000000;text-align:left}
+.tg .phase8L{font-size:10px;background-color:var(--ph8bgcolor);color:#000000;border-color:#000000;text-align:left}
+
+
+</style>
+<table class="tg" style="undefined;table-layout: auto; width: 100%">
+<colgroup>
+<col style="width: 20px">
+<col style="width: 200px">
+<col style="width: 75px">
+<col style="width: 75px">
+<col style="width: 75px">
+<col style="width: 75px">
+<col style="width: 75px">
+<col style="width: 75px">
+<col style="width: 75px">
+<col style="width: 75px">
+<col style="width: 75px">
+</colgroup>
+  <tr>
+    <th class="tg-iy9g" colspan="9">2937J - VL NO. 39 - INTERIM MILESTONES</th>
+    <th class="tg-jjdc" colspan="2"><p id="current_date_str"></p></th>
+  </tr>
+  <tr>
+    <th class="tg-exo3" colspan="11"></th>
+  </tr>
+  <tr>
+    <td class="tg-jjdr">Phase</td>
+    <td class="tg-jjdr">Location</td>
+    <td class="tg-jjdr">Allowed Duration (CD)</td>
+    <td class="tg-jjdr">Actual Start Date (m-d-y)</td>
+    <td class="tg-jjdr">Latest Finish Date (m-d-y)</td>
+    <td class="tg-jjdr">Actual Finish Date (m-d-y)</td>
+    <td class="tg-jjdr">Current Duration (CD)</td>
+    <td class="tg-jjdr">Days Remaining (CD)</td>
+    <td class="tg-jjdr">Time Used</td>
+    <td class="tg-jjdr">Days Over (CD)</td>
+    <td class="tg-jjdr">LDs</td>
+  </tr>
+  <tr>
+    <td class="phase1"><p id="p1A_str"></p></td>
+    <td class="phase1L"><p id="p1B_str"></p></td>
+    <td class="phase1"><p id="p1C_str"></p></td>
+    <td class="phase1"><p id="p1D_str"></p></td>
+    <td class="phase1"><p id="p1E_str"></p></td>
+    <td class="phase1"><p id="p1F_str"></p></td>
+    <td class="phase1"><p id="p1G_str"></p></td>
+    <td class="phase1"><p id="p1H_str"></p></td>
+    <td class="phase1"><p id="p1I_str"></p></td>
+    <td class="phase1"><p id="p1J_str"></p></td>
+    <td class="phase1"><p id="p1K_str"></p></td>
+  </tr>
+  <tr>
+    <td class="phase2"><p id="p2A_str"></p></td>
+    <td class="phase2L"><p id="p2B_str"></p></td>
+    <td class="phase2"><p id="p2C_str"></p></td>
+    <td class="phase2"><p id="p2D_str"></p></td>
+    <td class="phase2"><p id="p2E_str"></p></td>
+    <td class="phase2"><p id="p2F_str"></p></td>
+    <td class="phase2"><p id="p2G_str"></p></td>
+    <td class="phase2"><p id="p2H_str"></p></td>
+    <td class="phase2"><p id="p2I_str"></p></td>
+    <td class="phase2"><p id="p2J_str"></p></td>
+    <td class="phase2"><p id="p2K_str"></p></td>
+  </tr>
+  <tr>
+    <td class="phase3"><p id="p3A_str"></p></td>
+    <td class="phase3L"><p id="p3B_str"></p></td>
+    <td class="phase3"><p id="p3C_str"></p></td>
+    <td class="phase3"><p id="p3D_str"></p></td>
+    <td class="phase3"><p id="p3E_str"></p></td>
+    <td class="phase3"><p id="p3F_str"></p></td>
+    <td class="phase3"><p id="p3G_str"></p></td>
+    <td class="phase3"><p id="p3H_str"></p></td>
+    <td class="phase3"><p id="p3I_str"></p></td>
+    <td class="phase3"><p id="p3J_str"></p></td>
+    <td class="phase3"><p id="p3K_str"></p></td>
+  </tr>
+  <tr>
+    <td class="phase4"><p id="p4A_str"></p></td>
+    <td class="phase4L"><p id="p4B_str"></p></td>
+    <td class="phase4"><p id="p4C_str"></p></td>
+    <td class="phase4"><p id="p4D_str"></p></td>
+    <td class="phase4"><p id="p4E_str"></p></td>
+    <td class="phase4"><p id="p4F_str"></p></td>
+    <td class="phase4"><p id="p4G_str"></p></td>
+    <td class="phase4"><p id="p4H_str"></p></td>
+    <td class="phase4"><p id="p4I_str"></p></td>
+    <td class="phase4"><p id="p4J_str"></p></td>
+    <td class="phase4"><p id="p4K_str"></p></td>
+  </tr>
+  <tr>
+    <td class="phase5"><p id="p5A_str"></p></td>
+    <td class="phase5L"><p id="p5B_str"></p></td>
+    <td class="phase5"><p id="p5C_str"></p></td>
+    <td class="phase5"><p id="p5D_str"></p></td>
+    <td class="phase5"><p id="p5E_str"></p></td>
+    <td class="phase5"><p id="p5F_str"></p></td>
+    <td class="phase5"><p id="p5G_str"></p></td>
+    <td class="phase5"><p id="p5H_str"></p></td>
+    <td class="phase5"><p id="p5I_str"></p></td>
+    <td class="phase5"><p id="p5J_str"></p></td>
+    <td class="phase5"><p id="p5K_str"></p></td>
+  </tr>
+  <tr>
+    <td class="phase6"><p id="p6A_str"></p></td>
+    <td class="phase6L"><p id="p6B_str"></p></td>
+    <td class="phase6"><p id="p6C_str"></p></td>
+    <td class="phase6"><p id="p6D_str"></p></td>
+    <td class="phase6"><p id="p6E_str"></p></td>
+    <td class="phase6"><p id="p6F_str"></p></td>
+    <td class="phase6"><p id="p6G_str"></p></td>
+    <td class="phase6"><p id="p6H_str"></p></td>
+    <td class="phase6"><p id="p6I_str"></p></td>
+    <td class="phase6"><p id="p6J_str"></p></td>
+    <td class="phase6"><p id="p6K_str"></p></td>
+  </tr>
+  <tr>
+    <td class="phase6A"><p id="p6AA_str"></p></td>
+    <td class="phase6AL"><p id="p6AB_str"></p></td>
+    <td class="phase6A"><p id="p6AC_str"></p></td>
+    <td class="phase6A"><p id="p6AD_str"></p></td>
+    <td class="phase6A"><p id="p6AE_str"></p></td>
+    <td class="phase6A"><p id="p6AF_str"></p></td>
+    <td class="phase6A"><p id="p6AG_str"></p></td>
+    <td class="phase6A"><p id="p6AH_str"></p></td>
+    <td class="phase6A"><p id="p6AI_str"></p></td>
+    <td class="phase6A"><p id="p6AJ_str"></p></td>
+    <td class="phase6A"><p id="p6AK_str"></p></td>
+  </tr>
+  <tr>
+    <td class="phase7"><p id="p7A_str"></p></td>
+    <td class="phase7L"><p id="p7B_str"></p></td>
+    <td class="phase7"><p id="p7C_str"></p></td>
+    <td class="phase7"><p id="p7D_str"></p></td>
+    <td class="phase7"><p id="p7E_str"></p></td>
+    <td class="phase7"><p id="p7F_str"></p></td>
+    <td class="phase7"><p id="p7G_str"></p></td>
+    <td class="phase7"><p id="p7H_str"></p></td>
+    <td class="phase7"><p id="p7I_str"></p></td>
+    <td class="phase7"><p id="p7J_str"></p></td>
+    <td class="phase7"><p id="p7K_str"></p></td>
+  </tr>
+  <tr>
+    <td class="phase8"><p id="p8A_str"></p></td>
+    <td class="phase8L"><p id="p8B_str"></p></td>
+    <td class="phase8"><p id="p8C_str"></p></td>
+    <td class="phase8"><p id="p8D_str"></p></td>
+    <td class="phase8"><p id="p8E_str"></p></td>
+    <td class="phase8"><p id="p8F_str"></p></td>
+    <td class="phase8"><p id="p8G_str"></p></td>
+    <td class="phase8"><p id="p8H_str"></p></td>
+    <td class="phase8"><p id="p8I_str"></p></td>
+    <td class="phase8"><p id="p8J_str"></p></td>
+    <td class="phase8"><p id="p8K_str"></p></td>
+  </tr>
+  <tr>
+    <th class="tg-exo3" colspan="9"></th>
+    <td class="tg-jjdrr"><p id="liq_dam_lbl"></p></td>
+    <td class="tg-exo3"><p id="liq_dam_str"></p></td>
+  </tr>
+</table>
+  
+<script>
+
+current_date_num =  new Date();
+yyy = current_date_num.getFullYear();
+mon = current_date_num.getMonth()+1;
+dte = current_date_num.getDate();
+hrs = current_date_num.getHours();
+min = current_date_num.getMinutes();
+current_date_num =  new Date(yyy,mon,dte,hrs,min);
+document.getElementById("current_date_str").innerHTML = date_string(current_date_num);
+
+
+
+
+<!-- ############### Phase 1 ################################################################################################## -->
+
+var p1A = 1; 
+var p1B = "Sacramento St: From Buchanan to Van Ness Ave"; 
+var p1C = 100;
+var p1D = new Date(2999,7,1);
+var p1F = new Date(2999,7,18);
+
+var p1E = new Date(p1D.getFullYear(),p1D.getMonth(),p1D.getDate()+p1C);
+var p1G = Math.floor(day_dffrnce(current_date_num,p1D));
+
+if (current_date_num > p1F){var p1G = Math.floor(day_dffrnce(p1F,p1D))}
+
+var p1H = p1C - p1G;
+var p1I = 100*p1G/p1C;
+var p1J = p1G - p1C
+
+if (p1J > 0){var p1K = p1J*1800}
+else {var p1K = 0}
+
+document.getElementById("p1A_str").innerHTML = p1A;
+document.getElementById("p1B_str").innerHTML = p1B;
+document.getElementById("p1C_str").innerHTML = p1C;
+
+if (p1D < current_date_num) {document.getElementById("p1D_str").innerHTML = date_string(p1D)}
+else {document.getElementById("p1D_str").innerHTML = ""}
+
+if (p1D < current_date_num) {document.getElementById("p1E_str").innerHTML = date_string(p1E)}
+else {document.getElementById("p1E_str").innerHTML = ""}
+
+if (p1F < current_date_num) {document.getElementById("p1F_str").innerHTML = date_string(p1F)}
+else {document.getElementById("p1F_str").innerHTML = ""}
+
+if (p1G > 0){document.getElementById("p1G_str").innerHTML = p1G}
+else {document.getElementById("p1G_str").innerHTML = ""}
+
+if (p1D < current_date_num){document.getElementById("p1H_str").innerHTML = p1H}
+else {document.getElementById("p1H_str").innerHTML = ""}
+
+if (p1D < current_date_num){document.getElementById("p1I_str").innerHTML = p1I.toFixed(0) + "%"}
+else {document.getElementById("p1I_str").innerHTML = ""}
+
+if(p1J > 0){document.getElementById("p1J_str").innerHTML = p1J}
+else {document.getElementById("p1J_str").innerHTML = ""}
+
+if(p1K > 0){document.getElementById("p1K_str").innerHTML = "$"+p1K.toLocaleString()}
+else {document.getElementById("p1K_str").innerHTML = ""}
+
+document.documentElement.style.setProperty('--ph1bgcolor', bg_stts_clr(p1I/100));
+
+<!-- ############### Phase 2 ################################################################################################# -->
+
+var p2A = 2; 
+var p2B = "Pine St: From Presidio Ave to Van Ness Ave"; 
+var p2C = 120;
+var p2D = new Date(2019,4,10);
+var p2F = new Date(2999,7,18);
+
+var p2E = new Date(p2D.getFullYear(),p2D.getMonth(),p2D.getDate()+p2C);
+var p2G = Math.floor(day_dffrnce(current_date_num,p2D));
+
+if (current_date_num > p2F){var p2G = Math.floor(day_dffrnce(p2F,p2D))}
+
+var p2H = p2C - p2G;
+var p2I = 100*p2G/p2C;
+var p2J = p2G - p2C
+
+if (p2J > 0){var p2K = p2J*1800}
+else {var p2K = 0}
+
+document.getElementById("p2A_str").innerHTML = p2A;
+document.getElementById("p2B_str").innerHTML = p2B;
+document.getElementById("p2C_str").innerHTML = p2C;
+
+if (p2D < current_date_num) {document.getElementById("p2D_str").innerHTML = date_string(p2D)}
+else {document.getElementById("p2D_str").innerHTML = ""}
+
+if (p2D < current_date_num) {document.getElementById("p2E_str").innerHTML = date_string(p2E)}
+else {document.getElementById("p2E_str").innerHTML = ""}
+
+if (p2F < current_date_num) {document.getElementById("p2F_str").innerHTML = date_string(p2F)}
+else {document.getElementById("p2F_str").innerHTML = ""}
+
+if (p2G > 0){document.getElementById("p2G_str").innerHTML = p2G}
+else {document.getElementById("p2G_str").innerHTML = ""}
+
+if (p2D < current_date_num){document.getElementById("p2H_str").innerHTML = p2H}
+else {document.getElementById("p2H_str").innerHTML = ""}
+
+if (p2D < current_date_num){document.getElementById("p2I_str").innerHTML = p2I.toFixed(0) + "%"}
+else {document.getElementById("p2I_str").innerHTML = ""}
+
+if(p2J > 0){document.getElementById("p2J_str").innerHTML = p2J}
+else {document.getElementById("p2J_str").innerHTML = ""}
+
+if(p2K > 0){document.getElementById("p2K_str").innerHTML = "$"+p2K.toLocaleString()}
+else {document.getElementById("p2K_str").innerHTML = ""}
+
+document.documentElement.style.setProperty('--ph2bgcolor', bg_stts_clr(p2I/100));
+
+<!-- ############### Phase 3 ################################################################################################# -->
+
+var p3A = 3; 
+var p3B = "Fern St: From Gough St to Van Ness Ave"; 
+var p3C = 7;
+var p3D = new Date(2999,7,1);
+var p3F = new Date(2999,7,18);
+
+var p3E = new Date(p3D.getFullYear(),p3D.getMonth(),p3D.getDate()+p3C);
+var p3G = Math.floor(day_dffrnce(current_date_num,p3D));
+
+if (current_date_num > p3F){var p3G = Math.floor(day_dffrnce(p3F,p3D))}
+
+var p3H = p3C - p3G;
+var p3I = 100*p3G/p3C;
+var p3J = p3G - p3C
+
+if (p3J > 0){var p3K = p3J*1800}
+else {var p3K = 0}
+
+document.getElementById("p3A_str").innerHTML = p3A;
+document.getElementById("p3B_str").innerHTML = p3B;
+document.getElementById("p3C_str").innerHTML = p3C;
+
+if (p3D < current_date_num) {document.getElementById("p3D_str").innerHTML = date_string(p3D)}
+else {document.getElementById("p3D_str").innerHTML = ""}
+
+if (p3D < current_date_num) {document.getElementById("p3E_str").innerHTML = date_string(p3E)}
+else {document.getElementById("p3E_str").innerHTML = ""}
+
+if (p3F < current_date_num) {document.getElementById("p3F_str").innerHTML = date_string(p3F)}
+else {document.getElementById("p3F_str").innerHTML = ""}
+
+if (p3G > 0){document.getElementById("p3G_str").innerHTML = p3G}
+else {document.getElementById("p3G_str").innerHTML = ""}
+
+if (p3D < current_date_num){document.getElementById("p3H_str").innerHTML = p3H}
+else {document.getElementById("p3H_str").innerHTML = ""}
+
+if (p3D < current_date_num){document.getElementById("p3I_str").innerHTML = p3I.toFixed(0) + "%"}
+else {document.getElementById("p3I_str").innerHTML = ""}
+
+if(p3J > 0){document.getElementById("p3J_str").innerHTML = p3J}
+else {document.getElementById("p3J_str").innerHTML = ""}
+
+if(p3K > 0){document.getElementById("p3K_str").innerHTML = "$"+p3K.toLocaleString()}
+else {document.getElementById("p3K_str").innerHTML = ""}
+
+document.documentElement.style.setProperty('--ph3bgcolor', bg_stts_clr(p3I/100));
+
+<!-- ############### Phase 4 ################################################################################################# -->
+
+var p4A = 4; 
+var p4B = "Laguna St: From Bay St to California St"; 
+var p4C = 260;
+var p4D = new Date(2019,6,6);
+var p4F = new Date(2999,7,18);
+
+var p4E = new Date(p4D.getFullYear(),p4D.getMonth(),p4D.getDate()+p4C);
+var p4G = Math.floor(day_dffrnce(current_date_num,p4D));
+
+if (current_date_num > p4F){var p4G = Math.floor(day_dffrnce(p4F,p4D))}
+
+var p4H = p4C - p4G;
+var p4I = 100*p4G/p4C;
+var p4J = p4G - p4C
+
+if (p4J > 0){var p4K = p4J*1800}
+else {var p4K = 0}
+
+document.getElementById("p4A_str").innerHTML = p4A;
+document.getElementById("p4B_str").innerHTML = p4B;
+document.getElementById("p4C_str").innerHTML = p4C;
+
+if (p4D < current_date_num) {document.getElementById("p4D_str").innerHTML = date_string(p4D)}
+else {document.getElementById("p4D_str").innerHTML = ""}
+
+if (p4D < current_date_num) {document.getElementById("p4E_str").innerHTML = date_string(p4E)}
+else {document.getElementById("p4E_str").innerHTML = ""}
+
+if (p4F < current_date_num) {document.getElementById("p4F_str").innerHTML = date_string(p4F)}
+else {document.getElementById("p4F_str").innerHTML = ""}
+
+if (p4G > 0){document.getElementById("p4G_str").innerHTML = p4G}
+else {document.getElementById("p4G_str").innerHTML = ""}
+
+if (p4D < current_date_num){document.getElementById("p4H_str").innerHTML = p4H}
+else {document.getElementById("p4H_str").innerHTML = ""}
+
+if (p4D < current_date_num){document.getElementById("p4I_str").innerHTML = p4I.toFixed(0) + "%"}
+else {document.getElementById("p4I_str").innerHTML = ""}
+
+if(p4J > 0){document.getElementById("p4J_str").innerHTML = p4J}
+else {document.getElementById("p4J_str").innerHTML = ""}
+
+if(p4K > 0){document.getElementById("p4K_str").innerHTML = "$"+p4K.toLocaleString()}
+else {document.getElementById("p4K_str").innerHTML = ""}
+
+document.documentElement.style.setProperty('--ph4bgcolor', bg_stts_clr(p4I/100));
+
+<!-- ############### Phase 5 ################################################################################################# -->
+
+var p5A = 5; 
+var p5B = "Buchanan St: From North Point St to Clay St"; 
+var p5C = 160;
+var p5D = new Date(2999,7,1);
+var p5F = new Date(2999,7,18);
+
+var p5E = new Date(p5D.getFullYear(),p5D.getMonth(),p5D.getDate()+p5C);
+var p5G = Math.floor(day_dffrnce(current_date_num,p5D));
+
+if (current_date_num > p5F){var p5G = Math.floor(day_dffrnce(p5F,p5D))}
+
+var p5H = p5C - p5G;
+var p5I = 100*p5G/p5C;
+var p5J = p5G - p5C
+
+if (p5J > 0){var p5K = p5J*1800}
+else {var p5K = 0}
+
+document.getElementById("p5A_str").innerHTML = p5A;
+document.getElementById("p5B_str").innerHTML = p5B;
+document.getElementById("p5C_str").innerHTML = p5C;
+
+if (p5D < current_date_num) {document.getElementById("p5D_str").innerHTML = date_string(p5D)}
+else {document.getElementById("p5D_str").innerHTML = ""}
+
+if (p5D < current_date_num) {document.getElementById("p5E_str").innerHTML = date_string(p5E)}
+else {document.getElementById("p5E_str").innerHTML = ""}
+
+if (p5F < current_date_num) {document.getElementById("p5F_str").innerHTML = date_string(p5F)}
+else {document.getElementById("p5F_str").innerHTML = ""}
+
+if (p5G > 0){document.getElementById("p5G_str").innerHTML = p5G}
+else {document.getElementById("p5G_str").innerHTML = ""}
+
+if (p5D < current_date_num){document.getElementById("p5H_str").innerHTML = p5H}
+else {document.getElementById("p5H_str").innerHTML = ""}
+
+if (p5D < current_date_num){document.getElementById("p5I_str").innerHTML = p5I.toFixed(0) + "%"}
+else {document.getElementById("p5I_str").innerHTML = ""}
+
+if(p5J > 0){document.getElementById("p5J_str").innerHTML = p5J}
+else {document.getElementById("p5J_str").innerHTML = ""}
+
+if(p5K > 0){document.getElementById("p5K_str").innerHTML = "$"+p5K.toLocaleString()}
+else {document.getElementById("p5K_str").innerHTML = ""}
+
+document.documentElement.style.setProperty('--ph5bgcolor', bg_stts_clr(p5I/100));
+
+<!-- ############### Phase 6 ################################################################################################# -->
+
+var p6A = 6; 
+var p6B = "Avila St: From Cervantes Blvd to Marina Blvd"; 
+var p6C = 28;
+var p6D = new Date(2999,7,1);
+var p6F = new Date(2999,7,18);
+
+var p6E = new Date(p6D.getFullYear(),p6D.getMonth(),p6D.getDate()+p6C);
+var p6G = Math.floor(day_dffrnce(current_date_num,p6D));
+
+if (current_date_num > p6F){var p6G = Math.floor(day_dffrnce(p6F,p6D))}
+
+var p6H = p6C - p6G;
+var p6I = 100*p6G/p6C;
+var p6J = p6G - p6C
+
+if (p6J > 0){var p6K = p6J*1800}
+else {var p6K = 0}
+
+document.getElementById("p6A_str").innerHTML = p6A;
+document.getElementById("p6B_str").innerHTML = p6B;
+document.getElementById("p6C_str").innerHTML = p6C;
+
+if (p6D < current_date_num) {document.getElementById("p6D_str").innerHTML = date_string(p6D)}
+else {document.getElementById("p6D_str").innerHTML = ""}
+
+if (p6D < current_date_num) {document.getElementById("p6E_str").innerHTML = date_string(p6E)}
+else {document.getElementById("p6E_str").innerHTML = ""}
+
+if (p6F < current_date_num) {document.getElementById("p6F_str").innerHTML = date_string(p6F)}
+else {document.getElementById("p6F_str").innerHTML = ""}
+
+if (p6G > 0){document.getElementById("p6G_str").innerHTML = p6G}
+else {document.getElementById("p6G_str").innerHTML = ""}
+
+if (p6D < current_date_num){document.getElementById("p6H_str").innerHTML = p6H}
+else {document.getElementById("p6H_str").innerHTML = ""}
+
+if (p6D < current_date_num){document.getElementById("p6I_str").innerHTML = p6I.toFixed(0) + "%"}
+else {document.getElementById("p6I_str").innerHTML = ""}
+
+if(p6J > 0){document.getElementById("p6J_str").innerHTML = p6J}
+else {document.getElementById("p6J_str").innerHTML = ""}
+
+if(p6K > 0){document.getElementById("p6K_str").innerHTML = "$"+p6K.toLocaleString()}
+else {document.getElementById("p6K_str").innerHTML = ""}
+
+document.documentElement.style.setProperty('--ph6bgcolor', bg_stts_clr(p6I/100));
+
+<!-- ############### Phase 6A ################################################################################################# -->
+
+var p6AA = '6A'; 
+var p6AB = "Avila St: From Alhambra St to Chestnut St"; 
+var p6AC = 45;
+var p6AD = new Date(2999,7,1);
+var p6AF = new Date(2999,7,18);
+
+var p6AE = new Date(p6AD.getFullYear(),p6AD.getMonth(),p6AD.getDate()+p6AC);
+var p6AG = Math.floor(day_dffrnce(current_date_num,p6AD));
+
+if (current_date_num > p6AF){var p6AG = Math.floor(day_dffrnce(p6AF,p6AD))}
+
+var p6AH = p6AC - p6AG;
+var p6AI = 100*p6AG/p6AC;
+var p6AJ = p6AG - p6AC
+
+if (p6AJ > 0){var p6AK = p6AJ*1800}
+else {var p6AK = 0}
+
+document.getElementById("p6AA_str").innerHTML = p6AA;
+document.getElementById("p6AB_str").innerHTML = p6AB;
+document.getElementById("p6AC_str").innerHTML = p6AC;
+
+if (p6AD < current_date_num) {document.getElementById("p6AD_str").innerHTML = date_string(p6AD)}
+else {document.getElementById("p6AD_str").innerHTML = ""}
+
+if (p6AD < current_date_num) {document.getElementById("p6AE_str").innerHTML = date_string(p6AE)}
+else {document.getElementById("p6AE_str").innerHTML = ""}
+
+if (p6AF < current_date_num) {document.getElementById("p6AF_str").innerHTML = date_string(p6AF)}
+else {document.getElementById("p6AF_str").innerHTML = ""}
+
+if (p6AG > 0){document.getElementById("p6AG_str").innerHTML = p6AG}
+else {document.getElementById("p6AG_str").innerHTML = ""}
+
+if (p6AD < current_date_num){document.getElementById("p6AH_str").innerHTML = p6AH}
+else {document.getElementById("p6AH_str").innerHTML = ""}
+
+if (p6AD < current_date_num){document.getElementById("p6AI_str").innerHTML = p6AI.toFixed(0) + "%"}
+else {document.getElementById("p6AI_str").innerHTML = ""}
+
+if(p6AJ > 0){document.getElementById("p6AJ_str").innerHTML = p6AJ}
+else {document.getElementById("p6AJ_str").innerHTML = ""}
+
+if(p6AK > 0){document.getElementById("p6AK_str").innerHTML = "$"+p6AK.toLocaleString()}
+else {document.getElementById("p6AK_str").innerHTML = ""}
+
+document.documentElement.style.setProperty('--ph6Abgcolor', bg_stts_clr(p6AI/100));
+
+<!-- ############### Phase 7 ################################################################################################# -->
+
+var p7A = '7'; 
+var p7B = "Capra Way: From Scott St to Mallorca Way"; 
+var p7C = 56;
+var p7D = new Date(2999,7,1);
+var p7F = new Date(2999,7,18);
+
+var p7E = new Date(p7D.getFullYear(),p7D.getMonth(),p7D.getDate()+p7C);
+var p7G = Math.floor(day_dffrnce(current_date_num,p7D));
+
+if (current_date_num > p7F){var p7G = Math.floor(day_dffrnce(p7F,p7D))}
+
+var p7H = p7C - p7G;
+var p7I = 100*p7G/p7C;
+var p7J = p7G - p7C
+
+if (p7J > 0){var p7K = p7J*1800}
+else {var p7K = 0}
+
+document.getElementById("p7A_str").innerHTML = p7A;
+document.getElementById("p7B_str").innerHTML = p7B;
+document.getElementById("p7C_str").innerHTML = p7C;
+
+if (p7D < current_date_num) {document.getElementById("p7D_str").innerHTML = date_string(p7D)}
+else {document.getElementById("p7D_str").innerHTML = ""}
+
+if (p7D < current_date_num) {document.getElementById("p7E_str").innerHTML = date_string(p7E)}
+else {document.getElementById("p7E_str").innerHTML = ""}
+
+if (p7F < current_date_num) {document.getElementById("p7F_str").innerHTML = date_string(p7F)}
+else {document.getElementById("p7F_str").innerHTML = ""}
+
+if (p7G > 0){document.getElementById("p7G_str").innerHTML = p7G}
+else {document.getElementById("p7G_str").innerHTML = ""}
+
+if (p7D < current_date_num){document.getElementById("p7H_str").innerHTML = p7H}
+else {document.getElementById("p7H_str").innerHTML = ""}
+
+if (p7D < current_date_num){document.getElementById("p7I_str").innerHTML = p7I.toFixed(0) + "%"}
+else {document.getElementById("p7I_str").innerHTML = ""}
+
+if(p7J > 0){document.getElementById("p7J_str").innerHTML = p7J}
+else {document.getElementById("p7J_str").innerHTML = ""}
+
+if(p7K > 0){document.getElementById("p7K_str").innerHTML = "$"+p7K.toLocaleString()}
+else {document.getElementById("p7K_str").innerHTML = ""}
+
+document.documentElement.style.setProperty('--ph7bgcolor', bg_stts_clr(p7I/100));
+
+<!-- ############### Phase 8 ################################################################################################# -->
+
+var p8A = '8'; 
+var p8B = "Webster Ave: Clay Intersection"; 
+var p8C = 70;
+var p8D = new Date(2999,7,1);
+var p8F = new Date(2999,7,18);
+
+var p8E = new Date(p8D.getFullYear(),p8D.getMonth(),p8D.getDate()+p8C);
+var p8G = Math.floor(day_dffrnce(current_date_num,p8D));
+
+if (current_date_num > p8F){var p8G = Math.floor(day_dffrnce(p8F,p8D))}
+
+var p8H = p8C - p8G;
+var p8I = 100*p8G/p8C;
+var p8J = p8G - p8C
+
+if (p8J > 0){var p8K = p8J*1800}
+else {var p8K = 0}
+
+document.getElementById("p8A_str").innerHTML = p8A;
+document.getElementById("p8B_str").innerHTML = p8B;
+document.getElementById("p8C_str").innerHTML = p8C;
+
+if (p8D < current_date_num) {document.getElementById("p8D_str").innerHTML = date_string(p8D)}
+else {document.getElementById("p8D_str").innerHTML = ""}
+
+if (p8D < current_date_num) {document.getElementById("p8E_str").innerHTML = date_string(p8E)}
+else {document.getElementById("p8E_str").innerHTML = ""}
+
+if (p8F < current_date_num) {document.getElementById("p8F_str").innerHTML = date_string(p8F)}
+else {document.getElementById("p8F_str").innerHTML = ""}
+
+if (p8G > 0){document.getElementById("p8G_str").innerHTML = p8G}
+else {document.getElementById("p8G_str").innerHTML = ""}
+
+if (p8D < current_date_num){document.getElementById("p8H_str").innerHTML = p8H}
+else {document.getElementById("p8H_str").innerHTML = ""}
+
+if (p8D < current_date_num){document.getElementById("p8I_str").innerHTML = p8I.toFixed(0) + "%"}
+else {document.getElementById("p8I_str").innerHTML = ""}
+
+if(p8J > 0){document.getElementById("p8J_str").innerHTML = p8J}
+else {document.getElementById("p8J_str").innerHTML = ""}
+
+if(p8K > 0){document.getElementById("p8K_str").innerHTML = "$"+p8K.toLocaleString()}
+else {document.getElementById("p8K_str").innerHTML = ""}
+
+document.documentElement.style.setProperty('--ph8bgcolor', bg_stts_clr(p8I/100));
+
+<!-- ############### LDs ################################################################################################# -->
+
+var liq_dam_num  = 0;
+
+if (p1K > 0) { liq_dam_num = liq_dam_num + p1K};
+if (p2K > 0) { liq_dam_num = liq_dam_num + p2K};
+if (p3K > 0) { liq_dam_num = liq_dam_num + p3K};
+if (p4K > 0) { liq_dam_num = liq_dam_num + p4K};
+if (p5K > 0) { liq_dam_num = liq_dam_num + p5K};
+if (p6K > 0) { liq_dam_num = liq_dam_num + p6K};
+if (p6AK > 0) { liq_dam_num = liq_dam_num + p6AK};
+if (p7K > 0) { liq_dam_num = liq_dam_num + p7K};
+if (p8K > 0) { liq_dam_num = liq_dam_num + p8K};
+
+if (liq_dam_num > 0) {document.getElementById("liq_dam_str").innerHTML = "$"+liq_dam_num.toLocaleString()
+                      document.getElementById("liq_dam_lbl").innerHTML = "Total Liquidated Damages"}
+else                 {document.getElementById("liq_dam_str").innerHTML = ""
+                      document.getElementById("liq_dam_lbl").innerHTML = ""}
+
+<!-- ############### Functions ################################################################################################# -->
+
+
+function date_string(date_num)    {return (date_num.getMonth())+"-"+date_num.getDate()+"-"+date_num.getFullYear();}
+function day_dffrnce(dateB,dateA) {return (dateB-dateA)/(24*60*60*1000);}
+
+function bg_stts_clr(pXI){if (pXI < 0){return 'rgb(255,255,255)'} if (pXI > 1){pXI = 1} return 'rgb('+(182+73*pXI)+','+(255-73*pXI)+',182)'}
+
+</script>
+
+</body>
+</html>
